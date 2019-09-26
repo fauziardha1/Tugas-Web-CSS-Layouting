@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Layouting</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    
+    <div  class="nav">
+        Ini Header
+    </div>
+    <div id="navbar">
+        <a class="active" href="javascript:void(0)">Home</a>
+        <a href="javascript:void(0)">My Profile</a>
+        <a href="javascript:void(0)">Contact Me</a>
+      </div>
+
+    <div class="main">
+        <div class="content">
+            <div class="section">
+                <h3>Me!</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aliquid eum doloribus explicabo, officia temporibus eos praesentium itaque quia deserunt numquam voluptatibus dolorum molestiae cupiditate alias harum enim culpa assumenda.</p>
+            </div>
+        </div>
+        <div class="sidebar">
+
+            <ul>
+                <li>
+                    <a href="#">pertama</a>
+                </li>
+                <li>
+                    <a href="#">kedua</a>
+                </li>
+                <li>
+                    <a href="#">ketiga</a>
+                </li>
+                <li>
+                    <a href="#">empat</a>
+                </li>
+            </ul>
+
+        </div>
+     
+    </div>
+    
+    <script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+    if(window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sticky");
+    }
+    }
+</script>
+    </script>
+</body>
+</html>

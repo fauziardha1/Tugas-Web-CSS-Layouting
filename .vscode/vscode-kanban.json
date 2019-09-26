@@ -1,0 +1,32 @@
+{
+  "done": [],
+  "in-progress": [
+    {
+      "assignedTo": {
+        "name": "fauziarda"
+      },
+      "category": "CSS Layouting",
+      "creation_time": "2019-09-25T01:14:45.697Z",
+      "id": "1",
+      "prio": 1,
+      "references": [],
+      "title": "Buat navbar"
+    },
+    {
+      "assignedTo": {
+        "name": "fauziarda"
+      },
+      "category": "CSS Layouting",
+      "creation_time": "2019-09-25T01:15:21.453Z",
+      "description": {
+        "content": "didalamnya ada content dan ada sidebar\nsidebarnya berisi list",
+        "mime": "text/markdown"
+      },
+      "id": "2",
+      "references": [],
+      "title": "Buat Main"
+    }
+  ],
+  "testing": [],
+  "todo": []
+}
